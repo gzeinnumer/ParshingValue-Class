@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="Nilai Mahasiswa"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <TableRow>
+            <TextView android:text="No Bp "
+                android:layout_weight="1"/>
+            <EditText android:hint="No Bp"
+                android:layout_weight="5"
+                android:id="@+id/etNB"
+                android:inputType="number"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nama"
+                android:layout_weight="1"/>
+            <EditText android:hint="Nama"
+                android:layout_weight="5"
+                android:inputType="text"
+                android:id="@+id/etNama"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Mata Kuliah "
+                android:layout_weight="1"/>
+            <EditText android:hint="MatKul"
+                android:layout_weight="5"
+                android:inputType="text"
+                android:id="@+id/etMK"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai UAS "
+                android:layout_weight="1"/>
+            <EditText android:hint="Uas"
+                android:layout_weight="5"
+                android:inputType="number"
+                android:id="@+id/etNUas"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Uts "
+                android:layout_weight="1"/>
+            <EditText android:hint="Uts"
+                android:layout_weight="5"
+                android:inputType="number"
+                android:id="@+id/etNUts"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Tgs "
+                android:layout_weight="1"/>
+            <EditText android:hint="Tgs"
+                android:layout_weight="5"
+                android:inputType="number"
+                android:id="@+id/etNTgs"/>
+        </TableRow>
+        <Button android:id="@+id/btnProsesNilai"
+            android:text="Proses"/>
+    </TableLayout>
+</RelativeLayout>
+</ScrollView>

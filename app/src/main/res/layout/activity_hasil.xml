@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:text="No Bp"
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvNB"
+                android:layout_weight="8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nama"
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvNama"
+                android:layout_weight="8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Mata Kuliah"
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvMK"
+                android:layout_weight="8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Uts"
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvNUts"
+                android:layout_weight="8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Uas"
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvNUas"
+                android:layout_weight="8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Tugas"
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvNTgs"
+                android:layout_weight="8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Total "
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvTOT"
+                android:layout_weight="8"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Huruf "
+                android:layout_weight="1"/>
+            <TextView android:id="@+id/tvHuruf"
+                android:layout_weight="8"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
